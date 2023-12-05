@@ -1,0 +1,1 @@
+solution given is designed to work with contract in target.sol. This works by exploiting how the target lets user run code, and allows for unintneded reentrancy.
