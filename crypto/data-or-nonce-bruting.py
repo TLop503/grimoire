@@ -1,5 +1,8 @@
 """Given a known data or nonce brute force sha256 combinations until output with desired condition is met.
-For this example the goal is `000000` at the start of the hash"""
+For this example the goal is `000000` at the start of the hash
+
+this is used for psuedo-proof of work type challenges
+"""
 
 
 from decimal import Rounded
