@@ -1,0 +1,6 @@
+# if python unsafely reads yaml data from a source, you can use it to create your own objects
+# this example creates an admin isntance of an InitUser class.
+user: !!python/object:classes.InitUser
+    username: admin
+    notes:  []
+    is_admin: True
